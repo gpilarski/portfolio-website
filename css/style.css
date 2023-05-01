@@ -7,3 +7,8 @@ body{
     color: #000000;
 }
 
+h1, h2, h3, h4{
+    font-family: 'Merriweather', serif;
+    line-height: 1.4;
+}
+
