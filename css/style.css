@@ -54,3 +54,7 @@ a:focus {
     opacity: 0.8;
 }
 
+.button:active {
+    background-color: #237DBE;
+}
+
