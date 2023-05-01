@@ -58,3 +58,7 @@ a:focus {
     background-color: #237DBE;
 }
 
+.button:focus {
+    outline: 2px solid black;
+}
+
