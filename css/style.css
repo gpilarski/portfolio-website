@@ -40,3 +40,13 @@ a:focus {
     outline: 2px solid black;
 }
 
+.button {
+    display: inline-block;
+    background-color: #5caff9;
+    color: black;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom: 2px solid #237DBE;
+}
+
