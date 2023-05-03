@@ -89,4 +89,15 @@ a:focus {
     outline: 2px solid black;
 }
 
+header {
+    background-color:#5caff9;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+	-webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+	-moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+    position: fixed;
+    width: 100%;
+}
+
 }
