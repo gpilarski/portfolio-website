@@ -100,4 +100,9 @@ header {
     width: 100%;
 }
 
+nav {
+    display: inline-block;
+    width: 100%;
+}
+
 }
