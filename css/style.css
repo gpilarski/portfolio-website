@@ -144,4 +144,8 @@ nav > ul > li > a {
     border-bottom: 1px solid black;
 }
 
+.logo {
+    max-width: 250px;
+}
+
 }
