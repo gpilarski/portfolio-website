@@ -152,4 +152,8 @@ nav > ul > li > a {
     padding: 0 15px;
 }
 
+main{
+    padding-top: 128px;
+}
+
 }
