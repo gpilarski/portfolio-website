@@ -178,4 +178,10 @@ footer {
 .swot > h4 {
     margin: 0;
 }
+
+.swot > ul {
+    margin: 10px;
+    padding-left: 20px;
+}
+
 }
