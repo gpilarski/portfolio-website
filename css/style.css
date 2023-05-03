@@ -168,4 +168,11 @@ footer {
     text-align: center;
 }
 
+.swot {
+    display: inline-block;
+    background-color: #FCF7CD;
+    padding: 10px;
+    margin: 15px 0;
+}
+
 }
