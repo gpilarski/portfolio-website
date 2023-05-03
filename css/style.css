@@ -121,4 +121,10 @@ nav > ul > li > a {
     color: black;
 }
 
+#linkedin {
+    width: 40px;
+    padding: 10px 0;
+    display: inline-block;
+}
+
 }
