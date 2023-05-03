@@ -127,4 +127,12 @@ nav > ul > li > a {
     display: inline-block;
 }
 
+#hero {
+    background-color: #185581;
+    padding: 20px 0;
+    color: white;
+    display: inline-block;
+    width: 100%;
+}
+
 }
