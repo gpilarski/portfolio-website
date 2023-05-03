@@ -135,4 +135,8 @@ nav > ul > li > a {
     width: 100%;
 }
 
+.row {
+    margin: 25px 0;
+}
+
 }
