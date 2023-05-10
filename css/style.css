@@ -281,6 +281,10 @@ footer {
         width: 45%;
     }
 
+    .wf {
+        width: 20%;
+        float: left;
+        padding: 10px;
     }
 }
 
