@@ -156,6 +156,16 @@ nav > ul > li > a {
     border-bottom: 1px solid black;
 }
 
+.spread {
+    margin: 25px 0;
+}
+
+.spread::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 .logo {
     max-width: 250px;
 }
