@@ -224,4 +224,9 @@ footer {
     to {fill: #f76414;}
 }
 
+@keyframes cloud-move {
+    from {transform: translate(0,50px);}
+    to {transform: translate(200px,50px);}
+}
+
 }
