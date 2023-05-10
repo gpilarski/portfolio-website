@@ -145,6 +145,12 @@ nav > ul > li > a {
     margin: 25px 0;
 }
 
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 #work .row {
     padding-bottom: 25px; 
     border-bottom: 1px solid black;
