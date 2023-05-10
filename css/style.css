@@ -265,6 +265,10 @@ footer {
         font-size: 18px;
     }
 
+    #about h3 {
+        margin-top: 0;
+    }
+
     }
 }
 
