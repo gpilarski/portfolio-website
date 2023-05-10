@@ -234,4 +234,8 @@ footer {
     to {transform: translate(100px,48px);}
 }
 
+.sun {
+    animation: 4s color-change infinite alternate linear;
+}
+
 }
