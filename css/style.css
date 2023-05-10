@@ -273,6 +273,10 @@ footer {
         margin-top: 0;
     }
 
+    .col-mid-6 {
+        width: 50%;
+    }
+
     }
 }
 
