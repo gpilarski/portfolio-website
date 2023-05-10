@@ -138,6 +138,7 @@ nav > ul > li > a {
     color: white;
     display: inline-block;
     width: 100%;
+    text-align: center;
 }
 
 .row {
