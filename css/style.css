@@ -238,4 +238,8 @@ footer {
     animation: 4s color-change infinite alternate linear;
 }
 
+.cloud-front {
+    animation: 30s cloud-move infinite alternate linear;
+}
+
 }
