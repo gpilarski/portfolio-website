@@ -212,6 +212,12 @@ footer {
     padding: 0 15px;
 }
 
+.wf3 {
+    display: inline-block;
+    text-align: center;
+    padding: 0 15px;
+}
+
 .animation {
     width: 100%;
     max-width: 100%;
