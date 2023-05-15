@@ -121,6 +121,10 @@ nav > ul > li > a {
     color: black;
 }
 
+.navtoggle li:not(:last-child) {
+    display: none;
+}
+
 #linkedin {
     width: 40px;
     padding: 10px 0;
