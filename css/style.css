@@ -262,7 +262,8 @@ footer {
     }
 
     nav > ul {
-        margin: 10px 0;
+        margin: 1em 0;
+    }
 
     nav > ul > li {
         display: inline-block;
