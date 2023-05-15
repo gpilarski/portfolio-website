@@ -129,6 +129,13 @@ nav > ul > li > a {
     position: relative;
 }
 
+.navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top: 6px;
+    padding: 0;
+    font-size: 20px;
+}
 #linkedin {
     width: 40px;
     padding: 10px 0;
