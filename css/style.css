@@ -114,10 +114,6 @@ nav {
 nav > ul {
     list-style-type: none;
     padding: 0;
-}
-
-nav > ul > li {
-    display: inline-block;
     margin: 0;
 }
 
@@ -267,6 +263,11 @@ footer {
 
     nav > ul {
         margin: 10px 0;
+
+    nav > ul > li {
+        display: inline-block;
+    }
+
     }
 
     body {
