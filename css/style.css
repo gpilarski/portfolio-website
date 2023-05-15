@@ -303,6 +303,9 @@ footer {
     .navtoggle li:last-child {
         display: none;
     }
+
+    .logo {
+        width: auto;
     }
 
     body {
