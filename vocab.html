@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/db0194bad0.js" crossorigin="anonymous"></script>
+    <title>Vocab Recall Case Study</title>
+</head>
+
+<body>
+    <header><div class="container">
+        <div class="navtoggle" id="myNavtoggle">
+        <img src="img/Logo.png" alt="logo reading GJP UX Design" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Work</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+                <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+            </ul>
+        </nav>
+        </div>
+    </div></header>
+    <main><div>
+        <div class="container">
+            <picture>
+                <source srcset="img/vocab/Vocabrecall.png" media="(max-width:767px)">
+                <img src="img/vocab/Vocabrecall.png" alt="Image a dictionary overlaid by the title reading vocab recall.  It then lists problem: how can professionals refresh their language skills and learn new vocabulary that applies to their everyday life without getting bored by all the things they still remember? Goal: create a responsive web app for studying vocab flashcards that can be used for quick study sessions on the go. Role: UX/UI Designer. Project Scale: 3 months. Primary stakeholder: careerfoundry ux course. Tools used: Figma, Marvel.">
+            </picture>
+            <p>Vocab Recall was my first venture into UX and UI design.</p>
+        </div>
+        <div class="container">
+            <h1 id="headline">My Process</h1>
+            <p>The very first thing I did to determine the direction I wanted to take Vocab Recall was to conduct interviews with users of other flashcard and language study apps.</p>
+            <div><!--user research-->
+                <h2>User Research</h2>
+                <p>I conducted interviews with three people who each studied different languages on multiple different apps.</p>
+                <p>From these interviews my main takeaways were:</p>
+                <ul>
+                    <li>Users of flashcard apps are not brand new to the language</li>
+                    <li>Users prefer shorter study sessions available anywhere</li>
+                    <li>Users do not like seeing words they already know</li>
+                    <li>Users have language goals: learn slang, learn workplace terms, etc.</li>
+                </ul>
+                <p>From these discoveries I realized that I wanted Metric Weather to be a flexible app that could fit the needs of beginners and experts, as well as single sport or multi-sport athletes.</p>
+            </div>
+            <div><!--user persona-->
+                <h2>User Persona</h2>
+                <p>From the data I collected I created my user persona, Nicholas.</p>
+                <picture>
+                    <source srcset="img/vocab/nicholas.png" media="(max-width:767px)">
+                    <img src="img/vocab/nicholas.png" alt="infographic of a young black man named nicholas listing his demographic info: 24 years old, enginner, lives in suburbs, single with no kids, Bachelor's degree; quotes: I studied French in high school and now that my co-workers speak french I'd like a refresher, I'd love to visit grance with the language expertise I used to have; needs/goals: Needs pre-existing vocab sets to study because he doesn't have the time or motivation to type in all the vocab he needs, needs everyday and carrer specific vocabulary to help him brush up on what he knows and gain new words that can help him at work, needs ability to use app in any situation so he can study offline on the subway or a flight, needs customixation to accommodate his existing knowledge so that he can edit and combine premade sets to perfectly match his individual skill level; user stories: As a professional I want premade flashcard sets so that I can save time studying, As a previous language speaker I want customization so that I can study from my current skill level, as a professional I want career specific vocabulary so that I can communicate with my coworkers, as a commuter I want offline functions so that I can study while on the subway; problem statement: Nicholas needs a way to learn specific vocabulary while refreshing the basics because he used to have higher fluency in his target language. We will know this to be true when we see nicholas customize the vocabulary he is learning to match his personal goals and skill level; and hypothesis statement: We believe that by providing many premade and customizable flashcard sets for Nicholas we will achieve the most effective and targeted learning cirriculum.">
+                </picture>
+            </div>
+            <div><!--prototype creation-->
+                <h2>Prototype Creation</h2>
+                <p>Once I had my primary persona in mind I created the first wireframes for my prototype</p>
+                <div class="spread">
+                    <div class="wf">
+                        <h4>Onboarding</h4>
+                        <picture>
+                            <source srcset="img/vocab/onboarding.png" media="(max-width:767px)">
+                            <img src="img/vocab/onboarding.png" alt="wireframe of bubbles pointing to navigation bar tabs">
+                        </picture>
+                    </div>
+                    <div class="wf">
+                        <h4>Home Screen</h4>
+                        <picture>
+                            <source srcset="img/vocab/home.png" media="(max-width:767px)">
+                            <img src="img/vocab/home.png" alt="home screen that just says welcome! with five tabs in nav bar, a book, flashcards, home, profile, and settings">
+                        </picture>
+                    </div>
+                    <div class="wf">
+                        <h4>Set Selection</h4>
+                        <picture>
+                            <source srcset="img/vocab/study.png" media="(max-width:767px)">
+                            <img src="img/vocab/study.png" alt="wireframe saying select your set with a list of sets under it that have a name and example words">
+                        </picture>
+                    </div>
+                    <div class="wf">
+                        <h4>Set Editing</h4>
+                        <picture>
+                            <source srcset="img/vocab/edit.png" media="(max-width:767px)">
+                            <img src="img/vocab/edit.png" alt="wireframe with set name at top and instructing user to select which words they would like to keep by checking boxes on a list">
+                        </picture>
+                    </div>
+                    <div class="wf">
+                        <h4>Study Review</h4>
+                        <picture>
+                            <source srcset="img/vocab/summary.png" media="(max-width:767px)">
+                            <img src="img/vocab/summary.png" alt="screen that says set completed! and lists the amount correct and incorrect.  Two buttons offer study more or return home and there is no nav bar">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+            <div><!--usability testing-->
+                <h2>Usability Testing</h2>
+                <p>With my prototype made I conducted in-person, moderated usability tests with four participants. Each session lasted about 10 minutes and had four tasks.</p>
+                <p>The tasks were to:</p>
+                <ul>
+                    <li>Create a new vocab set from scratch</li>
+                    <li>Edit an existing vocab set</li>
+                    <li>Study using the flashcard option</li>
+                    <li>Study using the quiz option</li>
+                </ul>
+            </div>
+            <div><!--usability test report-->
+                <h2>Usability Test Report</h2>
+                <p>The testing revealed the following errors in each task.  I rated the errors on the Jakob Nielsen's error severity rating scale.</p>
+                    <div>
+                        <h3>Task 1- Create a new vocab set from scratch</h3>
+                            <h4>Observation- Load screen is click to move on</h4>
+                            <ul>
+                                <li>Severity- 2</li>
+                                <li>Recommendations- Make load screen timed rather than click to progress</li>
+                            </ul>
+                            <h4>Error- Navigation bar not accessible from finish set screen</h4>
+                            <ul>
+                                <li>Severity- 3</li>
+                                <li>Recommendations- Make navigation bar accessible from every screen</li>
+                            </ul>
+                            <h4>Observation- Create set and study now buttons not available from home screen</h4>
+                            <ul>
+                                <li>Severity- 1</li>
+                                <li>Recommendations- Add those buttons to home screen</li>
+                            </ul>
+                        <h3>Task 2- Edit an existing vocab set</h3>
+                            <h4>Error- Struggled to move on from “editing existing set” screen</h4>
+                            <ul>
+                                <li>Severity- 2</li>
+                                <li>Recommendations- Make button larger and maybe add words</li>
+                            </ul>
+                            <h4>Observation- User tried to click entire set to edit</h4>
+                            <ul>
+                                <li>Severity- 2</li>
+                                <li>Recommendations- Make entire set clickable to progress to “edit existing set” screen</li>
+                            </ul>
+                    </div>
+                    <div>
+                        <h3>Task 3- Study using the flashcard option</h3>
+                            <h4>Error- User struggled with inability to tap flashcard to flip it over</h4>
+                            <ul>
+                                <li>Severity- 3</li>
+                                <li>Recommendations- Tapping on flashcard allows you to see word definition</li>
+                            </ul>
+                        <h3>Task 4- Study using the quiz option</h3>
+                            <h4>Error- Slight difficulty identifying features in navigation bar</h4>
+                            <ul>
+                                <li>Severity- 4</li>
+                                <li>Recommendations- Add words and more clear icons in navigation bar</li>
+                            </ul>
+                            <h4>Observation- User noted that they desired ability to edit sets from study screen</h4>
+                            <ul>
+                                <li>Severity- 1</li>
+                                <li>Recommendations- Add edit button to sets from set selection screen</li>
+                            </ul>
+                    </div>
+            </div>
+            <div><!--prototype revision-->
+                <h2>Prototype Revision</h2>
+                <p>Following the usability testing I made some alterations to my wireframes and added some functions within the prototype.</p>
+                <div class="spread">
+                    <div class="wf">
+                        <h4>Onboarding</h4>
+                        <picture>
+                            <source srcset="img/vocab/onboarding2.png" media="(max-width:767px)">
+                            <img src="img/vocab/onboarding2.png" alt="wireframe of bubbles pointing to navigation bar tabs but it now says how to begin and has a skip button">
+                        </picture>
+                    </div>
+                    <div class="wf">
+                        <h4>Home Screen</h4>
+                        <picture>
+                            <source srcset="img/vocab/home2.png" media="(max-width:767px)">
+                            <img src="img/vocab/home2.png" alt="home screen that says welcome! and has two buttons to create a set or study now.  It also has a nav bar with five tabs in nav bar, a book, flashcards, home, profile, and settings">
+                        </picture>
+                    </div>
+                    <div class="wf">
+                        <h4>Set Selection</h4>
+                        <picture>
+                            <source srcset="img/vocab/study2.png" media="(max-width:767px)">
+                            <img src="img/vocab/study2.png" alt="wireframe saying select your set with a list of sets under it that have a name and example words and now each set has a small edit button on it">
+                        </picture>
+                    </div>
+                    <div class="wf">
+                        <h4>Set Editing</h4>
+                        <picture>
+                            <source srcset="img/vocab/edit2.png" media="(max-width:767px)">
+                            <img src="img/vocab/edit2.png" alt="wireframe with set name at top and instructing user to select which words they would like to keep by checking boxes on a list now with a clear continue button">
+                        </picture>
+                    </div>
+                    <div class="wf">
+                        <h4>Study Review</h4>
+                        <picture>
+                            <source srcset="img/vocab/summary2.png" media="(max-width:767px)">
+                            <img src="img/vocab/summary2.png" alt="screen that says set completed! and lists the amount correct and incorrect.  Two buttons offer study more or return home and now it has the nav bar">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2>Retrospective</h2>
+                <p>This case study was an interesting and informative introduction to UX design for me. I learned a lot about the research and testing required to make an effective app. If I were to continue working on Vocab Recall my next steps would be to increase prototype fidelity and then undergo another round of usability testing. While I did not continue to work on this project, I took all the lessons I learned to my next project, Metric Weather.</p>
+            </div>
+        </div>
+    </div></main>
+    <footer id="contact"><div class="container">
+        <h2>Get in Touch</h2>
+        <p>If you are interested in reaching out to me, please check out my LinkedIn or email me!</p>
+        <div>
+            <a href="mailto:gabriella.pilarski@gmail.com" class="primary-button">Email me</a>
+        </div>
+        <div id="linkedin">
+            <a href="https://www.linkedin.com/in/gabriella-p-a9a0539a/" target="_blank">
+                <img src="img/linkedin.svg" alt="LinkedIn Logo">
+            </a>
+        </div>
+        <p id="copyright">Copyright Gabriella Pilarski 2023</p>
+    </div></footer>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
