@@ -248,6 +248,10 @@ footer {
     padding: 0 15px;
 }
 
+#headshot {
+    max-width: 500px;
+}
+
 .animation {
     width: 100%;
     max-width: 100%;
