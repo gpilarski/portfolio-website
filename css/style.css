@@ -11,6 +11,11 @@ body{
     color: #000000;
 }
 
+footer {
+    background-color: #92B5A4;
+    padding: 10px 0;
+}
+
 h1, h2, h3, h4{
     font-family: 'Merriweather', serif;
     line-height: 1.4;
