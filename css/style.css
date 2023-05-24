@@ -149,7 +149,7 @@ nav > ul > li > a {
 }
 
 .navtoggle.responsive nav {
-    padding: 24px 0 0;
+    padding: 0 0;
 }
 
 .navtoggle.responsive li:last-child {
